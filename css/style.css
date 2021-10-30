@@ -6,9 +6,14 @@ body {
 .elementos {
     width: 500px;
     padding: 24px;
-    margin: 3% 0 100% 0;
+    margin: 2.2% 0 100% 0;
+
     background-color: #FFF;
     border-radius: 8px;
+}
+
+.semaforo-img {
+    width: 90%;
 }
 
 #buttons {
@@ -18,4 +23,31 @@ body {
 #buttons .btn-padrao {
     width: 24%;
     text-align: center;
+}
+
+#speed-range {
+    width: 70%;
+}
+
+#speed-range .range-style::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 18px;
+    height: 18px;
+
+    border-radius: 24%; 
+    background: #6c757d;
+
+    cursor: pointer;
+}
+
+#speed-range .range-style::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+
+    border-radius: 24%; 
+    background: #6c757d;
+
+    cursor: pointer;
 }

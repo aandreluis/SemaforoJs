@@ -12,13 +12,18 @@
         <div class="d-flex flex-column align-items-center justify-content-center elementos"> 
             <h1>Semáforo JS</h1>
             <div class="mt-2">
-                <img src="./img/desligado.png" id='img' alt="Sémaforo" class="img-fluid" >
+                <img src="./img/desligado.png" id='img' alt="Sémaforo" class="img-fluid rounded mx-auto d-block semaforo-img">
             </div>
             <div id='buttons' class="d-flex justify-content-evenly mt-3">
                 <button id='red' class="btn btn-danger btn-padrao" >Vermelho</button>
                 <button id='yellow' class="btn btn-warning btn-padrao" >Amarelo</button>
                 <button id='green' class="btn btn-success btn-padrao" >Verde</button>
                 <button id='automatic' class="btn btn-secondary btn-padrao" >Automático</button>
+            </div>
+            <div id='speed-range' class="d-flex justify-content-evenly mt-4">
+                <p class="fst-italic text-muted me-2">Velocidade:</p>
+                <input type="range" class="form-range range-style"  min="1" max="5" id="range" value="1">
+                <p id="velocidade" class="text-muted ms-2">1</p><!-- valor do range -->
             </div>
         </div>
 
