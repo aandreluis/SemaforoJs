@@ -11,7 +11,7 @@ Mini Projeto realizado para estudos da linguagem JavaScript
 
 ## 📌 Versão
 
-Versão 1
+Versão 1.1
 
 ## ✒️ Autores
 
